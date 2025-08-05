@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umamusume Training Helper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1><img src="https://gametora.com/images/umamusume/logo.png" alt="Umamusume Logo" class="logo"> Training Helper</h1>
+
+        <div class="section">
+            <h2><span class="icon">📊</span> Level Fasilitas</h2>
+            <div class="facility-levels">
+                <div class="input-group">
+                    <label for="speed-facility">Speed</label>
+                    <input type="number" id="speed-facility" value="1" min="1">
+                </div>
+                <div class="input-group">
+                    <label for="stamina-facility">Stamina</label>
+                    <input type="number" id="stamina-facility" value="1" min="1">
+                </div>
+                <div class="input-group">
+                    <label for="power-facility">Power</label>
+                    <input type="number" id="power-facility" value="1" min="1">
+                </div>
+                <div class="input-group">
+                    <label for="guts-facility">Guts</label>
+                    <input type="number" id="guts-facility" value="1" min="1">
+                </div>
+                <div class="input-group">
+                    <label for="int-facility">Int</label>
+                    <input type="number" id="int-facility" value="1" min="1">
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2><span class="icon">🃏</span> Support Card Hadir di Latihan</h2>
+            <div id="training-options">
+                </div>
+        </div>
+        
+        <button id="calculate-btn">Hitung Potensi Latihan!</button>
+
+        <div class="section">
+            <h2><span class="icon">🏆</span> Hasil Perhitungan</h2>
+            <div id="results-container">
+                <p>Masukkan data di atas dan klik tombol hitung.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
